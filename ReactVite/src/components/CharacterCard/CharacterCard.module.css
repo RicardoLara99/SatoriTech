@@ -1,0 +1,36 @@
+
+.characterH3 {
+  margin: 5px 0;
+}
+
+.characterP {
+  margin: 5px 0;
+}
+
+.detailsContainerDiv {
+  display: flex;
+  gap: 10px;
+}
+
+.card{
+  margin: 10px;
+  padding: 10px;
+  flex: 1 1 200px;
+  border-radius: 10px;
+  background-color: #ada545;
+  min-height: 300px;
+  max-width: 280px;
+  min-width: 280px;
+}
+
+.image{
+  max-width: 130px;
+}
+.image {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.image:hover {
+  transform: scale(1.1);
+}

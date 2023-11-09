@@ -1,0 +1,10 @@
+.characters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    align-items: stretch;
+  }
+  
+  .greenBackground { background-color: #abffbd; }
+  .blueBackground { background-color: #abd9ff; }
+  .redBackground { background-color: #ffabab; }

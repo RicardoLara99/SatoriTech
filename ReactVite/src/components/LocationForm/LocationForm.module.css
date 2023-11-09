@@ -1,0 +1,28 @@
+.locationForm {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .locationInput {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background: #eee;
+    margin-right: 10px;
+  }
+  
+  .submitButton {
+    border: none;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .submitButton:hover {
+    background-color: #f2f2f2;
+  }
+  

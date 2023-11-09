@@ -1,0 +1,41 @@
+#locationForm {
+    margin-bottom: 20px;
+    display: flex;
+  }
+  
+  #locationForm label,
+  #locationForm input,
+  #locationForm button {
+    margin: 5px;
+  }
+  
+  /* Style for character details */
+  #characters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    align-items: stretch;
+  }
+  #characters > div {
+    margin: 10px;
+    padding: 10px;
+    flex: 1 1 200px;
+    border-radius: 10px;
+    background-color: #ada545;
+    min-height: 300px;
+    max-width: 280px;
+    min-width: 280px;
+  }
+  
+  #characters h3 {
+    margin: 5px 0;
+  }
+  
+  #characters p {
+    margin: 5px 0;
+  }
+  
+  /* Background colors based on location ID */
+#characters.green { background-color: #abffbd; }
+#characters.blue { background-color: #abd9ff; }
+#characters.red { background-color: #ffabab; }
